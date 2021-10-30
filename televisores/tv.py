@@ -14,6 +14,11 @@ class TV:
     def getMarca(self):
         return self._marca
     
+    def setEstado(self,est):
+        self._estado=est
+    def getEstado(self):
+        return self._estado
+    
     def setControl(self,ctrl):
         self._control=ctrl
     def getControl(self):
